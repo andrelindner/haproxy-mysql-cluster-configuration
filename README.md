@@ -5,7 +5,7 @@
 - sudo apt-get install haproxy  
   
   
-## /etc/haproxy/haproxy.cnf 
+## /etc/haproxy/haproxy.cfg  
 Damit der HAProxy die Cluster-Knoten ansprechen kann, müssen diese in der HAProxy Konfiguration hinterlegt werden.  
   
 listen mysql-cluster  
