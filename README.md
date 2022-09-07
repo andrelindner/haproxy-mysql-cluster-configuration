@@ -1,4 +1,4 @@
-# HAProxy - Konfiguration  
+# HAProxy - MySQL-Cluster Konfiguration  
 
 ## Pakete installieren (Ubuntu)  
 - sudo apt-get update  
@@ -7,6 +7,7 @@
   
 ## /etc/haproxy/haproxy.cfg  
 Damit der HAProxy die Cluster-Knoten ansprechen kann, müssen diese in der HAProxy Konfiguration hinterlegt werden.  
+Cluster-Zugriff über den Port: 3000 auf die Datenbanken  
   
 listen mysql-cluster  
  bind    :3300  
